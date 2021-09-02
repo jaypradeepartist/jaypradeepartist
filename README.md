@@ -2,7 +2,7 @@
 - 👀 I’m interested in Web Development (Front-End)
 - 🌱 I’m currently learning Web Development
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me email-JayPradeepArtist@gmail.com
+- 📫 How to reach me mailto:JayPradeepArtist@gmail.com / instagram.com/iWitchForce
 
 <!---
 jaypradeepartist/jaypradeepartist is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
