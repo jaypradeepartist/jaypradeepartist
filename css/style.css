@@ -1,0 +1,907 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Poppins', sans-serif;
+    color: #454545;
+    font-size: 10px;
+}
+
+/* Utility Classes */
+
+.btn_outline {
+    border: #454545 2px solid;
+    border-radius: 50px;
+}
+
+strong {
+    color: #757575;
+}
+
+.btn_outline:hover {
+    background-color: #454545;
+    color: #fff;
+    border: #454545 2px solid;
+    border-radius: 0px;
+    transition: ease-in-out .3s;
+}
+
+
+
+/* Nav Bar */
+
+header {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 80px;
+}
+
+
+.container_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    background-color: #f2f2f2;
+    height: 80px;
+    z-index: 20;
+}
+
+.container_nav nav ul li {
+    list-style: none;
+    display: inline-block;
+    /* padding: 20px 20px; */
+}
+
+.container_nav nav ul li a{
+    text-decoration: none;
+    color: #9b9b9b;
+    padding: 20px 40px;
+    font-size: 1.6rem;
+}
+
+
+.container_nav nav ul li a:hover{
+    text-decoration: none;
+    color: #454545;
+    padding: 20px 40px;
+    transition: .3s ease-in-out;
+}
+
+.container_nav nav ul li a.current{
+    text-decoration: none;
+    color: #454545;
+    font-weight: 500;
+}
+
+
+/* Graphic Design Hover Menu */
+
+
+
+/* Showcase Image */
+
+.bg_img {
+    height: 100vh;
+    background: url(/img/background_image.jpg) no-repeat center center/cover;
+}
+
+.showcase_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);   
+}
+
+.showcase_text h1 {
+    font-size: 8rem;
+    font-weight: 200;
+}
+
+.showcase_text p {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+
+/* Graphic Design */
+
+.info_d_container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.l_g_d {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.l_g_d h2 {
+    font-size: 4rem;
+    margin: 15px;
+}
+
+.l_g_d p {
+    font-size: 1.8rem;
+    margin: 20px;
+}
+
+.l_g_d a {
+    margin: 20px;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #454545;
+    padding: 15px 20px;
+}
+
+.r_g_d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.r_g_d img {
+    width: 80%;
+}
+
+.r_g_d img:hover {
+    transform: scale(1.03);
+    transition: transform .3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Page */
+
+
+.about_container {
+    height: 100%;
+    width: 100%;
+}
+
+.about_content {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about_content h2.about {
+    font-size: 40px;
+    padding: 15px;
+}
+
+
+.about_content h1 {
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+.about_content p {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+
+.about_image {
+    background: url(/img/aboutme.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 650px;
+}
+
+
+
+
+
+
+
+
+/* Graphic Design Page */
+
+/* All Headings in Graphic Design */
+
+.graphic_design_full_content {
+    width: 100%;
+    height: 100%;
+}
+
+
+.g_d_heading {
+    width: 100%;
+    height: 80px;
+    color: #454545;
+    background-color: #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.g_d_heading h1 {
+    font-weight: 600;
+}
+
+
+
+
+.g_d_img_header {
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* .g_d_img_header h3 {
+
+} */
+
+
+/* Graphic Header Section */
+
+
+.g_d_img_content_header {
+    width: 100%;
+    height: 80px;   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    background-color: #e7e7e7; 
+    padding: 10px;
+    /* margin-bottom: 30px; */
+    z-index: 19;
+}
+
+.g_d_img_content_header a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+
+/* Icons */
+
+.logo_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo_header img{
+    width: 60px;
+    display: inline-block;
+    flex-direction: column;
+}
+
+
+/* Graphic Design Images */
+
+/* Logos Images */
+
+/* .g_d_logos_section {
+display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+    padding-top: 60px;
+} */
+
+.logos_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.logos_img img {
+    width: 28%;
+}
+
+
+/* Brochure Images */
+
+.g_d_brochure_section {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.brochure_img  {
+    display: flex;
+    justify-content: centers;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.brochure_img img {
+    width: 50%;
+    padding: 10px 10px;
+}
+
+
+/* Flyers Images */
+
+.g_d_flyers_section {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.flyers_img  {
+    display: flex;
+    justify-content: centers;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.flyers_img img {
+    width: 50%;
+    padding: 10px 10px;
+}
+
+
+/* Photoedit Images */
+
+.g_d_Photoedit_section {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.Photoedit_img  {
+    display: flex;
+    justify-content: centers;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.Photoedit_img img {
+    width: 50%;
+    padding: 10px 10px;
+}
+
+
+/* 3D models Images */
+
+.g_d_3d_models_section {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.autodesk_models_img  {
+    display: flex;
+    justify-content: centers;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.autodesk_models_img img {
+    width: 50%;
+    padding: 10px 10px;
+}
+
+
+/* Web Design Images */
+
+.g_d_web_design_section {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.web_design_img  {
+    display: flex;
+    justify-content: centers;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.web_design_img img {
+    width: 50%;
+    padding: 10px 10px;
+}
+
+
+
+
+/* Our Services Page */
+
+
+.services_full_section {
+    width: 100%;
+    height: 100%;
+}
+
+.services_heading {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services_heading h2 {
+     font-size: 4rem;
+     font-weight: 300;
+     padding-bottom: 10px;
+}
+
+.services_heading p {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+
+.services_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.box_service {
+    width: 300px;
+    height: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.box_service img {
+    width: 30%;
+    margin: 30px;
+}
+
+.box_service:hover {
+    transform: scale(1.1, 1.1);
+    transition: all ease-in-out;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.box_service h3 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.box_service p {
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+
+
+
+/* Contact Page */
+
+
+
+
+
+
+
+
+.contact_showcase {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_showcase h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.contact_showcase p {
+    font-size: 1.8rem;
+}
+
+
+
+
+
+.box_contact_full_section {
+    height: 250px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box_contact {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #efefef ;
+    margin-right: 50px;
+}
+
+.box_contact:hover {
+    transform: scale(1.1, 1.1);
+    transition: all ease-in-out;
+    transition: .5s;
+}
+
+.box_contact img {
+    display: none;
+}
+
+.box_contact h2 {
+    padding: 20px;
+}
+
+.box_contact a {
+    text-decoration: none;
+    color: #454545;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-direction: row;
+    background-color: #242A2A;
+    color: #9b9b9b;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+
+
+
+
+.footer_g_d {
+    padding: 20px 5%;  
+    /* padding-left: 10%; */
+    line-height: 4rem;
+}
+
+.footer_g_d h4 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #e7e7e7;
+}
+
+.footer_g_d ul li {
+    list-style: none;
+}
+
+.footer_g_d ul li a {
+    color: #9b9b9b;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.footer_g_d ul li a:hover {
+    color: #e7e7e7;
+    transition: .3s ease-in-out;
+}
+
+
+/* Information w/icons */
+
+.footer_info {
+    width: auto;
+}
+
+.footer_info img {
+    width: 12%;
+    margin: 0 15px;
+}
+
+.footer_info a {
+    color: #e7e7e7;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.social_media_icons {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: center; */
+}
+
+.social_media_icons a {
+    /* margin-right: 29px; */
+    align-items: center;
+    padding: 0;
+    height: 35px;
+}
+
+.social_media_icons li {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Email Send */
+
+.email_send {
+    padding-left: 15px;
+}
+
+#email {
+    width: 96%;
+    height: 30px;
+    color: #e7e7e7;
+    padding: 0 10px;
+    color: #fff;
+    background-color: #171818;
+    border: none;
+}
+
+#submit {
+    height: 30px;
+    width: 30%;
+    padding: 0px 3%;
+    color: #fff;
+    background-color: #171818;
+    border: none;
+}
+
+#submit:hover {
+    height: 30px;
+    width: 30%;
+    padding: 0px 3%;
+    color: #171818;
+    background-color: #fff;
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+}
+
+
+
+/* Copyright Footer */
+
+.copyright_footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9b9b9b;
+    background-color: #141616;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
+/* Animation */
+
+.animate {
+    text-decoration: underline 2.5px #9b9b9b;
+    width: 30%;
+    height: 2px;
+    background-color: #757575;
+    animation-name: under_welcome;
+    animation-duration: 2.5s;
+    margin-bottom: 15px;
+    animation-delay: .5s;
+}
+
+@keyframes under_welcome {
+
+    from {
+        width: 1%;  
+        height: 2px;  
+    }
+    
+    to {
+        width: 30%;
+        height: 2px;
+        animation-fill-mode: forwards;
+        color: #757575;
+    }
+    
+}
+
+
+.showcase_text {
+    opacity: 1;
+    animation-name: showcase_text;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes showcase_text {
+    0% {
+        opacity: 0;
+    }
+
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/* About Page Image */
+
+.about_image {
+    background: url(/img/aboutme.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 650px;
+    animation-name: about_img;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes about_img {
+
+    0% {
+        width: 100%;
+        height: 0px;
+    }
+    
+    100% {
+        width: 100%;
+        height: 650px;
+    }
+    
+}
+
+.logos_img img {
+    width: 28%;
+    animation-name: logos_img;
+    animation-duration: 2s;
+    animation-delay: .2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes logos_img {
+    0% {
+        overflow: hidden;
+        width: 28%;
+    }
+
+    100% {  
+        overflow: auto;
+
+        width: 30%;
+    }
+}
+
+
+.services_full_section {
+    animation-name: services_heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes services_heading {
+    
+    0% {
+        height: 0;
+        overflow: hidden;
+    }
+
+    100% {
+        overflow: hidden;
+        height: 910px;
+    }
+}
+
+
+.box_contact_full_section {
+    animation-name: contact_body;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    /* animation-delay: 2s; */
+}
+
+@keyframes contact_body {
+    0% {
+        height: 0;
+        overflow: hidden;
+    }
+    100% {
+        height: 370px;
+    }
+}
+
+
+
+
+
+
+
+
+/* Handburger Navbar */
+
+.handburger-menu {
+    display: none;
+}
+
+
